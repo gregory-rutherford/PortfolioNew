@@ -17,10 +17,16 @@ body{
 #header {
     font-size: 38px;
     font-weight: 400;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Ubuntu', sans-serif; 
 }
 
 #body {
     font-size: 28px;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 
@@ -34,11 +40,13 @@ body{
 #links {
     justify-content: center;
     font-size: 24px;
-    letter-spacing: 0.5mm;
+    letter-spacing: 0.3mm;
 }
 
 #contact {
     justify-content: center;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
 }
 
 #extras {
@@ -56,10 +64,6 @@ i:hover {
     opacity: 0.5;
 }
 
-h1 {
-    font-family: 'Ubuntu', sans-serif; 
-}
-
 p, a {
     font-family: 'Roboto', sans-serif;
 }
@@ -73,8 +77,32 @@ img {
     border-radius: 5%;
     width: 150px;
     height: 200px;
+    border: 1px solid grey;
+}
+
+hr {
+    opacity: 0.5;
+    margin: 20px;
+}
+
+.gitCard {
+    width: 400px;
+    height: 250px;
 }
 
 a:link, a:visited {
     color: blue;
 }
+
+@media only screen and (max-width: 375px) {
+    .gitCard {
+        width: 200px;
+        height: 125px;
+}
+    }
+    @media only screen and (max-width: 490px) {
+        .gitCard {
+            width: 300px;
+            height: 187px;
+    }
+        }
