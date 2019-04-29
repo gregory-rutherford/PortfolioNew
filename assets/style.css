@@ -54,6 +54,12 @@ body{
     align-items: center;
 }
 
+#footer {
+    justify-content: center;
+    background: grey;
+    color: white;
+}
+
 i {
     color: rgb(6, 0, 7);
     margin: 6px;
