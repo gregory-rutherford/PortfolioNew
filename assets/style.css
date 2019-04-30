@@ -1,8 +1,11 @@
 body{
     height: 100vh;
     /* background-color: rgba(122, 216, 146, 0.596); */
-    background-color: rgba(214, 216, 122, 0.719);
-
+    background-color: rgba(237, 238, 203, 0.719);
+    box-sizing: border-box;
+    max-width: 34em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .container {
@@ -12,6 +15,20 @@ body{
 
 #header, #body {
     justify-content: center;  
+}
+
+h1 {
+    font-weight: 400;
+font-size: 49px;
+margin-top: 40px;
+margin-bottom: 10px;
+line-height: 60px;
+border-bottom: 1px solid silver;
+padding-bottom: 10px;
+}
+
+#name {
+    font-weight: 500;
 }
 
 #header {
@@ -27,6 +44,9 @@ body{
     font-weight: 400;
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 28px;
+    text-align: center;
+    line-height: 30px;
 }
 
 
@@ -35,12 +55,15 @@ body{
     flex-wrap: wrap;
     align-items: center;
     font-size: 24px;
+    text-align: center;
+    margin-bottom: 28px;
+    line-height: 30px;
 }
 
 #links {
     justify-content: center;
     font-size: 24px;
-    letter-spacing: 0.3mm;
+    letter-spacing: 0.1mm;
 }
 
 #contact {
@@ -58,6 +81,11 @@ body{
     justify-content: center;
     background: grey;
     color: white;
+    height: 2em;
+
+margin-top: 10px;
+
+padding-top: 10px;
 }
 
 i {
@@ -66,7 +94,7 @@ i {
     font-size: 32px;
 }
 
-i:hover {
+#git:hover {
     opacity: 0.5;
 }
 
@@ -88,7 +116,7 @@ img {
 
 hr {
     opacity: 0.5;
-    margin: 20px;
+    margin: 15px;
 }
 
 .gitCard {
